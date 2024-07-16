@@ -1,0 +1,196 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilo del header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+#link-titulo{
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+header img {
+    height: 150px;
+    border-radius: 50%;
+}
+/* Estilo del nav */
+nav {
+    background-color: #333;
+    padding: 20px 11vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+/* Estilo del main */
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px ;
+    flex-wrap: wrap;
+}
+
+main section {
+    width: 22%;
+    padding-top: 22%;
+    position: relative;
+    background-color: #fff;
+    margin: 10px;
+    transition: box-shadow 0.3s, transform 0.3s, background-image 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-image: url('../images/streaming-fondo-codigo-binario_97886-226.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+main section:hover h2 {
+    color: #fff; 
+}
+
+main h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    text-align: center;
+    transition: color 0.2s;
+}
+
+.info-personal {
+    width: 70%;
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#c1d3bf;
+}
+
+.info-personal ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.info-personal li {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.info-personal li:hover {
+    transform: scale(1.05);
+    background-color: #a9f094;
+}
+
+/* Boton */
+.button {
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #1f3a20fe;
+    color: #eee;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .button-span {
+    color: #aaa;
+  }
+  
+  
+/* Estilo del footer */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.contactos {
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo de los iconos sociales */
+.social-icon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
