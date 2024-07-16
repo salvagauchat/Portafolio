@@ -1,4 +1,4 @@
-# portafalio
+# Portafolio
 Portafolio personal - CV - Habilidades 
 
 # Lenguajes utilizados:
